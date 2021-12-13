@@ -16,7 +16,7 @@ header{
        li {
            list-style: none;
            a {
-            @include contenido-texto (nth($colores, 6),22px) ;  
+            @include contenido-texto (nth($colores, 6),2.2rem) ;  
             color: whitesmoke;
                font-family: 'Roboto', sans-serif;
                text-decoration: none;

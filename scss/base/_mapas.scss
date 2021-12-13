@@ -1,13 +1,15 @@
+@import 'variables';
+
 /* Segun el tipo de texto qe sea tienen valores distintos*/
 
 $texto-principal: (
-    colorLetra: #018655,
-    size: 21px,
+    colorLetra: nth($colores, 5),
+    size: 2.1rem,
     margenes: 20px auto
 );
 
 $texto-secundario: (
-    colorLetra: rgb(121, 120, 120),
-    size:18px,
+    colorLetra: nth($colores, 8),
+    size:1.8rem,
     margenes: 10px 17px
 );

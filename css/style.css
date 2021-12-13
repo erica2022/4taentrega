@@ -15,6 +15,7 @@
 
 /* Configuro tamaño de imagen y estilo de borde*/
 /*Configuro los textos de acuerdo al color y tamaño*/
+/*Colores que uso en el curso*/
 /* Segun el tipo de texto qe sea tienen valores distintos*/
 /*Colores que uso en el curso*/
 .fondo-pagina {
@@ -68,6 +69,16 @@
   src: url("../../fuentes/FSRufus-Bold.otf") format("otf");
   font-display: swap;
 }
+/* declaro el valor del REM*/
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Colores que uso en el curso*/
 footer {
   background-color: #373837;
@@ -119,7 +130,7 @@ header ul li {
 }
 header ul li a {
   color: #d2d6d296;
-  font-size: 22px;
+  font-size: 2.2rem;
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -146,8 +157,8 @@ header ul li a:hover {
 }
 
 .texto-ppal {
-  color: #018655;
-  font-size: 21px;
+  color: #373837;
+  font-size: 2.1rem;
   font-family: "rufus";
   padding: 20px 20px;
   background-color: #d2d6d296;
@@ -156,8 +167,8 @@ header ul li a:hover {
 }
 
 .texto-secundario {
-  color: #797878;
-  font-size: 18px;
+  color: #7a7777;
+  font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
   margin: 10px 17px;
 }
@@ -197,11 +208,23 @@ header ul li a:hover {
 
 .contacto-texto {
   color: #018655;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-align: center;
   padding-top: 5px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
+}
+
+.boton-enviar {
+  background-color: #0e8f5f;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid #d7dad6;
+  padding: 5px 15px;
+}
+.boton-enviar:hover {
+  background-color: #8dd18d;
 }
 
 .e-card {

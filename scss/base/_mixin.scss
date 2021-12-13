@@ -22,3 +22,9 @@
     text-align: $alineacion;
     padding-top: $espacio;
 }
+
+@mixin boton ($colorFondo,$colorLetra,$borde){
+    background-color:$colorFondo;
+    border-radius: $borde;
+    color: $colorLetra
+}
