@@ -2,6 +2,13 @@
     @extend %contenedores-flex-fila;
 }
 
+/*hago mas chico el contenendor*/
+.contenedor-form{
+    width:80%;
+    margin: 10px auto;
+}
+
+/*le doy forma al mapa*/
 .mapa{
     border-radius: 50px;
     margin: 20px auto;
@@ -10,7 +17,7 @@
 .contacto-texto{
     @include titulo-paginas(nth($colores, 3),1.6rem, center, 5px);
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 50px;
+    margin: 10px 0;
 }
 
 .boton-enviar{

@@ -1,3 +1,4 @@
+/*ACA VAN LOS LINKS A LAS PAGINAS CON LAS DEMOS*/
 .contenedor-links-demo{
     @extend %contenedores-flex-columna;
     margin-left: 20px;
@@ -16,9 +17,8 @@
 .link-demos{
     color: nth($colores, 3);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
-
 }
 
 .link-demos:hover{

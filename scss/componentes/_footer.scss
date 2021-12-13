@@ -29,8 +29,12 @@ footer{
 }
 
 .contactos{
-    color: nth($colores, 7);
-    font-family: 'Roboto', sans-serif;
     margin: 0px 20px;
     @extend %contenedores-flex-fila;
 }
+
+.texto-contacto{
+    @include contenido-texto(nth($colores, 7),1.4rem );
+    font-family: 'Roboto', sans-serif;
+}
+
