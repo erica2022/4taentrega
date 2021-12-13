@@ -1,0 +1,26 @@
+.contenedor-links-demo{
+    @extend %contenedores-flex-columna;
+    margin-left: 20px;
+    background-color: rgb(226, 224, 224);
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    list-style-image: url(../imagenes/vineta.png);
+}
+
+.contenedor-demo{
+    @extend %contenedores-flex-fila;
+    justify-content: center;
+}
+
+.link-demos{
+    color: nth($colores, 3);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.link-demos:hover{
+    color: nth($colores, 4);
+}

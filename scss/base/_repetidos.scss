@@ -1,0 +1,36 @@
+@import './variables';
+
+.fondo-pagina{
+    background-image: url('../imagenes/fondo_main.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.contenedor-pag{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+.espacio-inicio{
+    margin-top: 140px;
+}
+
+.titulo{
+    @include titulo-paginas(nth($colores, 1),26px, center, 20px);
+    font-family: 'rufus-bold';
+    font-weight: bold;
+}
+
+.sub-titulo{
+    @include titulo-paginas(nth($colores, 5),21px, center, 5px);
+    font-family: 'rufus-bold';
+    margin-bottom: 50px;
+}
+
+
+.links{
+    color: nth($colores, 2);
+    text-decoration:underline;
+}

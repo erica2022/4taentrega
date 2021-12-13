@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/*Aca agregue extends y clases que se usan en varios lados*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.contenedor-demo, .contenedor-mapa, .contenedor-img-txt, header ul, .contactos, .contenedor-contacto, .contenedor-redes, .contenedor-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-links-demo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Configuro tamaño de imagen y estilo de borde*/
+/*Configuro los textos de acuerdo al color y tamaño*/
+/* Segun el tipo de texto qe sea tienen valores distintos*/
+/*Colores que uso en el curso*/
+.fondo-pagina {
+  background-image: url("../imagenes/fondo_main.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.contenedor-pag {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+}
+
+.espacio-inicio {
+  margin-top: 140px;
+}
+
+.titulo {
+  color: #0e8f5f;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "rufus-bold";
+  font-weight: bold;
+}
+
+.sub-titulo {
+  color: #373837;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "rufus-bold";
+  margin-bottom: 50px;
+}
+
+.links {
+  color: #8dd18d;
+  text-decoration: underline;
+}
+
+/*Tipografias*/
+@font-face {
+  font-family: "rufus";
+  src: url("../../fuentes/FSRufus.otf") format("otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "rufus-bold";
+  src: url("../../fuentes/FSRufus-Bold.otf") format("otf");
+  font-display: swap;
+}
+/*Colores que uso en el curso*/
+footer {
+  background-color: #373837;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+footer a {
+  margin-left: 10px;
+}
+
+/*Acomodo los iconos de las redes en linea*/
+.contenedor-footer {
+  justify-content: space-around;
+}
+
+.contenedor-redes {
+  width: 30%;
+  justify-content: left;
+}
+
+/* Acomodo los contactos del footer*/
+.contenedor-contacto {
+  width: 70%;
+  justify-content: right;
+}
+
+.contactos {
+  color: #d7dad6;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 20px;
+}
+
+/*Colores que uso en el curso*/
+header {
+  background-color: #0e8f5f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 16px;
+  z-index: 6;
+}
+header ul {
+  justify-content: space-around;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  color: #d2d6d296;
+  font-size: 22px;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+header ul li a:hover {
+  color: #d2d6d296;
+}
+
+.logo {
+  margin: 10px 20px;
+  transition: all 0.5s;
+}
+.logo:hover {
+  transform: scale(0.8);
+  opacity: 80%;
+}
+
+/*Colores que uso en el curso*/
+.contenedor-img-txt {
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.texto-ppal {
+  color: #018655;
+  font-size: 21px;
+  font-family: "rufus";
+  padding: 20px 20px;
+  background-color: #d2d6d296;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.texto-secundario {
+  color: #797878;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 17px;
+}
+
+/*Imagenes*/
+.imagen {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.imagen-chica {
+  width: 60%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.fondo {
+  background-color: rgba(82, 80, 80, 0.219);
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.carousel-texto {
+  position: absolute;
+  right: 15%;
+  bottom: 12px;
+  left: 15%;
+  padding: 12px;
+  color: #b4d1c0;
+  text-align: center;
+}
+
+.mapa {
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.contacto-texto {
+  color: #018655;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
+.e-card {
+  background-color: rgba(223, 219, 219, 0.486);
+  border-radius: none;
+  margin: 5px auto;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+
+.e-card img {
+  width: 50%;
+}
+
+.titulo-card {
+  color: #f7a25c;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  margin: 5px auto;
+  font-weight: bold;
+}
+
+.subtitulo-card {
+  color: #7a7777;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  margin: 5px auto;
+  font-weight: bold;
+}
+
+.e-texto {
+  color: #373837;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 20px;
+}
+
+.e-texto ul {
+  list-style-type: circle;
+}
+
+.logo-empresa {
+  margin: 50px auto;
+}
+
+.contenedor-espacio {
+  width: 50%;
+}
+
+.contenedor-links-demo {
+  margin-left: 20px;
+  background-color: #e2e0e0;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  list-style-image: url(../imagenes/vineta.png);
+}
+
+.contenedor-demo {
+  justify-content: center;
+}
+
+.link-demos {
+  color: #018655;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.link-demos:hover {
+  color: #f7a25c;
+}
+
+/*# sourceMappingURL=style.css.map */

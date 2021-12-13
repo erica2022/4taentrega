@@ -1,0 +1,14 @@
+.contenedor-mapa{
+    @extend %contenedores-flex-fila;
+}
+
+.mapa{
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+.contacto-texto{
+    @include titulo-paginas(nth($colores, 3),16px, center, 5px);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
