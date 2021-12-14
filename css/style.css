@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Aca agregue extends y clases que se usan en varios lados*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.contenedor-demo, .contenedor-mapa, header ul, .contactos, .contenedor-contacto, .contenedor-redes, .contenedor-footer {
+.contenedor-demo, header ul, .contactos, .contenedor-contacto, .contenedor-redes, .contenedor-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -42,6 +42,7 @@
   padding-top: 20px;
   font-family: "rufus-bold";
   font-weight: bold;
+  margin: 5px 20px;
 }
 
 .sub-titulo {
@@ -198,7 +199,9 @@ header ul li a:hover {
   left: 15%;
   padding: 12px;
   color: #b4d1c0;
+  font-size: 20px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 /*hago mas chico el contenendor*/
@@ -213,6 +216,7 @@ header ul li a:hover {
   margin: 20px auto;
 }
 
+/*formato del formulario de contacto*/
 .contacto-texto {
   color: #018655;
   font-size: 1.6rem;
@@ -246,6 +250,7 @@ header ul li a:hover {
   width: 50%;
 }
 
+/*Configuracion de los distintos niveles de textos para las tarjetas de servicios*/
 .titulo-card {
   color: #f7a25c;
   font-size: 19px;
@@ -268,7 +273,6 @@ header ul li a:hover {
   font-family: "Roboto", sans-serif;
   margin: 0 20px;
 }
-
 .e-texto ul {
   list-style-type: circle;
 }
@@ -276,13 +280,12 @@ header ul li a:hover {
 /*acomodo cada logo de la empresa*/
 .logo-empresa {
   margin: 50px auto;
-  display: flex;
-  justify-content: center;
 }
 
 /* contenedor en donde iran los logos de los clientes*/
 .contenedor-espacio {
   width: 60%;
+  margin-top: 20px;
 }
 
 /*ACA VAN LOS LINKS A LAS PAGINAS CON LAS DEMOS*/
@@ -295,19 +298,22 @@ header ul li a:hover {
   list-style-image: url(../imagenes/vineta.png);
 }
 
+/*este va a contener la imagen y un recuadro con los links a las demos*/
 .contenedor-demo {
   justify-content: center;
+  margin-top: 20px;
 }
 
+/*links a las paginas de demos*/
 .link-demos {
   color: #018655;
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
 }
-
 .link-demos:hover {
-  color: #f7a25c;
+  color: #7a7777;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

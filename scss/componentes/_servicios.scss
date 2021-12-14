@@ -8,6 +8,7 @@
     width: 50%;
 }
 
+/*Configuracion de los distintos niveles de textos para las tarjetas de servicios*/
 .titulo-card{
     @include contenido-texto(nth($colores, 4), 19px);
     font-family: 'Roboto', sans-serif;
@@ -26,8 +27,7 @@
     @include contenido-texto(nth($colores, 5),17px);
     font-family: 'Roboto', sans-serif;
     margin: 0 20px;
-}
-
-.e-texto ul {
-    list-style-type: circle;
+    ul{
+        list-style-type: circle;
+    }
 }

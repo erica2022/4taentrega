@@ -9,18 +9,21 @@
     list-style-image: url(../imagenes/vineta.png);
 }
 
+/*este va a contener la imagen y un recuadro con los links a las demos*/
 .contenedor-demo{
     @extend %contenedores-flex-fila;
     justify-content: center;
+    margin-top:20px;
 }
 
+/*links a las paginas de demos*/
 .link-demos{
     color: nth($colores, 3);
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     text-decoration: none;
-}
-
-.link-demos:hover{
-    color: nth($colores, 4);
+    &:hover{
+        color: nth($colores, 8);
+        text-decoration: underline;
+    }
 }

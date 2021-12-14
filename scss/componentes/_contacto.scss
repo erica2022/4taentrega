@@ -1,6 +1,3 @@
-.contenedor-mapa{
-    @extend %contenedores-flex-fila;
-}
 
 /*hago mas chico el contenendor*/
 .contenedor-form{
@@ -14,6 +11,7 @@
     margin: 20px auto;
 }
 
+/*formato del formulario de contacto*/
 .contacto-texto{
     @include titulo-paginas(nth($colores, 3),1.6rem, center, 5px);
     font-family: 'Roboto', sans-serif;
@@ -25,6 +23,7 @@
     font-size: 1.5rem;
     border: 1px solid nth($colores,7) ;
     padding: 5px 15px;
-    &:hover{background-color:nth($colores,2);
+    &:hover{
+        background-color:nth($colores,2);
     }
 }

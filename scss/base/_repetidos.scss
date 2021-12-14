@@ -21,6 +21,7 @@
     @include titulo-paginas(nth($colores, 1),26px, center, 20px);
     font-family: 'rufus-bold';
     font-weight: bold;
+    margin: 5px 20px;
 }
 
 .sub-titulo{
