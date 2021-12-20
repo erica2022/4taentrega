@@ -1,7 +1,7 @@
 {
   "name": "4taentrega",
   "version": "1.0.0",
-  "description": "Cuarta entrega del proyecto de Coder",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Erica Staroba</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,12 @@
     "nodemon": "^2.0.15"
   },
   "devDependencies": {},
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erica2022/4taentrega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erica2022/4taentrega/issues"
+  },
+  "homepage": "https://github.com/erica2022/4taentrega#readme"
 }

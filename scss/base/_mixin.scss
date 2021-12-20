@@ -28,3 +28,10 @@
     border-radius: $borde;
     color: $colorLetra
 }
+
+@mixin animaciones($transformaciones) {
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
+    transform: $transformaciones;
+}

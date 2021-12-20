@@ -25,5 +25,12 @@
     &:hover{
         color: nth($colores, 8);
         text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+.logo-demo{
+    &:hover{
+        opacity: 50%;
     }
 }

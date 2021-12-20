@@ -9,10 +9,9 @@ header{
     right: 0;   
     border-radius: 10px;
     box-shadow: rgb(0 0 0/50%) 0px 8px 16px;
-    z-index: 6;
+    z-index: 6;   
     ul {
         @extend %contenedores-flex-fila;
-        justify-content: space-around;
        li {
            list-style: none;
            a {
@@ -34,7 +33,7 @@ header{
     margin: 10px 20px;
     transition: all 0.5s;
     &:hover{
-        transform: scale(0.8);
+        @include animaciones(scale(0.8));
         opacity: 80%;
     }
 }

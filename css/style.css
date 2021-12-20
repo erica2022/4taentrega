@@ -19,7 +19,7 @@
 /* Segun el tipo de texto qe sea tienen valores distintos*/
 /*Colores que uso en el curso*/
 .fondo-pagina {
-  background-image: url("../imagenes/fondo_main.jpg");
+  background-image: url("../imagenes/fondo_main.webp");
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -32,11 +32,11 @@
 }
 
 .espacio-inicio {
-  margin-top: 140px;
+  margin-top: 170px;
 }
 
 .titulo {
-  color: #0e8f5f;
+  color: #0e8f60;
   font-size: 26px;
   text-align: center;
   padding-top: 20px;
@@ -85,9 +85,11 @@ footer {
   background-color: #373837;
   padding: 10px 0;
   margin-top: 20px;
+  border-radius: 10px;
 }
 footer a {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 /*Acomodo los iconos de las redes en linea*/
@@ -106,19 +108,16 @@ footer a {
   justify-content: right;
 }
 
-.contactos {
-  margin: 0px 20px;
-}
-
 .texto-contacto {
   color: #d7dad6;
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
+  margin: 10px 10px;
 }
 
 /*Colores que uso en el curso*/
 header {
-  background-color: #0e8f5f;
+  background-color: #0e8f60;
   position: fixed;
   top: 0;
   left: 0;
@@ -126,9 +125,6 @@ header {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 16px;
   z-index: 6;
-}
-header ul {
-  justify-content: space-around;
 }
 header ul li {
   list-style: none;
@@ -151,6 +147,9 @@ header ul li a:hover {
   transition: all 0.5s;
 }
 .logo:hover {
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 80%;
 }
@@ -227,7 +226,7 @@ header ul li a:hover {
 }
 
 .boton-enviar {
-  background-color: #0e8f5f;
+  background-color: #0e8f60;
   border-radius: 5px;
   color: white;
   font-size: 1.5rem;
@@ -314,6 +313,11 @@ header ul li a:hover {
 .link-demos:hover {
   color: #7a7777;
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.logo-demo:hover {
+  opacity: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
