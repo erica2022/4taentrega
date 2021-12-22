@@ -176,11 +176,13 @@ header ul li a:hover {
 .imagen {
   width: 100%;
   border-radius: 10px;
+  height: auto;
 }
 
 .imagen-chica {
   width: 60%;
   border-radius: 10px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -217,8 +219,8 @@ header ul li a:hover {
 
 /*formato del formulario de contacto*/
 .contacto-texto {
-  color: #018655;
-  font-size: 1.6rem;
+  color: #0e8f60;
+  font-size: 1.8rem;
   text-align: center;
   padding-top: 5px;
   font-family: "Roboto", sans-serif;
@@ -234,7 +236,7 @@ header ul li a:hover {
   padding: 5px 15px;
 }
 .boton-enviar:hover {
-  background-color: #8dd18d;
+  background-color: #373837;
 }
 
 .e-card {
@@ -285,6 +287,7 @@ header ul li a:hover {
 .contenedor-espacio {
   width: 60%;
   margin-top: 20px;
+  z-index: -6;
 }
 
 /*ACA VAN LOS LINKS A LAS PAGINAS CON LAS DEMOS*/
@@ -316,8 +319,48 @@ header ul li a:hover {
   font-weight: bold;
 }
 
-.logo-demo:hover {
-  opacity: 50%;
+/* Estas clases son pra que al roll over de las imagenes de las demos me muestre el texto con el nombre de la categoria*/
+.contenedor-rollover {
+  position: relative;
+  width: 100%;
+}
+
+.imagen-demo {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contenedor-rollover:hover .imagen-demo {
+  opacity: 0.3;
+}
+
+.contenedor-rollover:hover .middle {
+  opacity: 1;
+}
+
+.texto-rollover {
+  color: #373837;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 16px 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

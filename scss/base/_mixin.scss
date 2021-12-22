@@ -2,6 +2,7 @@
 @mixin imagen($tamanio, $border) {
     width: $tamanio;
     border-radius: $border;
+    height: auto;
 }
 
 /*Configuro los textos de acuerdo al color y tamaño*/

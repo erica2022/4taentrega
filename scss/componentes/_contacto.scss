@@ -13,7 +13,7 @@
 
 /*formato del formulario de contacto*/
 .contacto-texto{
-    @include titulo-paginas(nth($colores, 3),1.6rem, center, 5px);
+    @include titulo-paginas(nth($colores, 1),1.8rem, center, 5px);
     font-family: 'Roboto', sans-serif;
     margin: 10px 0;
 }
@@ -24,6 +24,6 @@
     border: 1px solid nth($colores,7) ;
     padding: 5px 15px;
     &:hover{
-        background-color:nth($colores,2);
+        background-color:nth($colores,5);
     }
 }
