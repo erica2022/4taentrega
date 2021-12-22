@@ -17,6 +17,13 @@ footer{
     justify-content: space-around;
 }
 
+.icono-redes{
+    &:hover {
+        @include animaciones(translateY(-3px));
+        opacity: 50%;
+    }
+}
+
 .contenedor-redes{
     width: 30%;
     @extend %contenedores-flex-fila;

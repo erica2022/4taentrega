@@ -32,7 +32,7 @@
 }
 
 .espacio-inicio {
-  margin-top: 170px;
+  margin-top: 150px;
 }
 
 .titulo {
@@ -97,6 +97,14 @@ footer a {
   justify-content: space-around;
 }
 
+.icono-redes:hover {
+  -webkit-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  transform: translateY(-3px);
+  opacity: 50%;
+}
+
 .contenedor-redes {
   width: 30%;
   justify-content: left;
@@ -139,7 +147,7 @@ header ul li a {
   margin: 10px 10px;
 }
 header ul li a:hover {
-  color: #d2d6d296;
+  color: #373837;
 }
 
 .logo {
@@ -287,7 +295,6 @@ header ul li a:hover {
 .contenedor-espacio {
   width: 60%;
   margin-top: 20px;
-  z-index: -6;
 }
 
 /*ACA VAN LOS LINKS A LAS PAGINAS CON LAS DEMOS*/
@@ -324,6 +331,12 @@ header ul li a:hover {
   position: relative;
   width: 100%;
 }
+.contenedor-rollover:hover .imagen-demo {
+  opacity: 0.3;
+}
+.contenedor-rollover:hover .middle {
+  opacity: 1;
+}
 
 .imagen-demo {
   opacity: 1;
@@ -345,14 +358,6 @@ header ul li a:hover {
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.contenedor-rollover:hover .imagen-demo {
-  opacity: 0.3;
-}
-
-.contenedor-rollover:hover .middle {
-  opacity: 1;
 }
 
 .texto-rollover {

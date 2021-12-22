@@ -33,6 +33,12 @@
 .contenedor-rollover {
     position: relative;
     width: 100%;
+      &:hover .imagen-demo{
+        opacity: 0.3;
+      }
+      &:hover .middle{
+        opacity: 1;
+      }
   }
   
   .imagen-demo {
@@ -54,14 +60,7 @@
     text-align: center;
   }
   
-  .contenedor-rollover:hover .imagen-demo {
-    opacity: 0.3;
-  }
-  
-  .contenedor-rollover:hover .middle {
-    opacity: 1;
-  }
-  
+
   .texto-rollover {
     color: nth($colores, 5);
     font-family: 'Roboto', sans-serif;
