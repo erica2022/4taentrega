@@ -6,8 +6,7 @@ footer{
     margin-top: 20px;
     border-radius: 10px;
     a{
-        margin-left: 10px;
-        margin-top: 10px;
+        margin: 10px 10px;
     }
 }
 
@@ -25,23 +24,12 @@ footer{
 }
 
 .contenedor-redes{
-    width: 30%;
+    width: 100%;
     @extend %contenedores-flex-fila;
-    justify-content: left;
+    justify-content: center;
 }
 
-/* Acomodo los contactos del footer*/
-.contenedor-contacto{
-    width: 70%;
-    @extend %contenedores-flex-fila;
-    justify-content: right;
-}
-
-.contactos{
-    @extend %contenedores-flex-fila;
-}
-
-.texto-contacto{
+.texto-footer{
     @include contenido-texto(nth($colores, 7),1.4rem );
     font-family: 'Roboto', sans-serif;
     margin: 10px 10px;

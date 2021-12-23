@@ -17,6 +17,7 @@
     margin: $margen;
 }
 
+/*se usa en todas los titulos de cada pagina de la web*/
 @mixin titulo-paginas ($color,$tamanio,$alineacion,$espacio){
     color: $color;
     font-size: $tamanio;
@@ -24,6 +25,7 @@
     padding-top: $espacio;
 }
 
+/*config del boton*/
 @mixin boton ($colorFondo,$colorLetra,$borde){
     background-color:$colorFondo;
     border-radius: $borde;
@@ -31,6 +33,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*aca configuro las transformaciones para que funcione en cada navegador*/
 @mixin animaciones($transformaciones) {
     -webkit-transform: $transformaciones;
     -o-transform: $transformaciones;

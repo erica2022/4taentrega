@@ -21,6 +21,7 @@
 .boton-enviar{
     @include boton(nth($colores,1), white, 5px);
     font-size: 1.5rem;
+    box-shadow: rgb(0 0 0/50%) 0px 8px 16px;
     border: 1px solid nth($colores,7) ;
     padding: 5px 15px;
     &:hover{
