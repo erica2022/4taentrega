@@ -249,6 +249,10 @@ header ul li a:hover {
   background-color: #373837;
 }
 
+.img-contacto {
+  margin-top: 10px;
+}
+
 .e-card {
   background-color: rgba(223, 219, 219, 0.486);
   border-radius: none;
