@@ -305,22 +305,24 @@ header ul li a:hover {
   margin-left: 20px;
   background-color: #e2e0e0;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px 30px;
   width: 350px;
   list-style-image: url(../imagenes/vineta.png);
+}
+.contenedor-links-demo ul {
+  line-height: 30px;
 }
 
 /*este va a contener la imagen y un recuadro con los links a las demos*/
 .contenedor-demo {
   justify-content: center;
-  margin-top: 20px;
 }
 
 /*links a las paginas de demos*/
 .link-demos {
   color: #018655;
   font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-decoration: none;
 }
 .link-demos:hover {
