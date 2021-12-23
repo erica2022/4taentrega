@@ -27,7 +27,8 @@
 @mixin boton ($colorFondo,$colorLetra,$borde){
     background-color:$colorFondo;
     border-radius: $borde;
-    color: $colorLetra
+    color: $colorLetra;
+    font-family: 'Roboto', sans-serif;
 }
 
 @mixin animaciones($transformaciones) {
